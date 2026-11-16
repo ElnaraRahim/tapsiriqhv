@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.boxes{
+    width: 90%;
+    height: 100vh ;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    width: 32%;
+    height: 50vh;
+    background-color: aquamarine;
+    
+}
+.right{
+    width: 55%;
+    height: calc(100vh-200px);
+    background-color: beige;
+    
+}
+
